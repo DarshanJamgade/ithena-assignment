@@ -1,0 +1,4 @@
+.dashboard-wrapper {
+    background-color: #ebebeb;
+    width: calc(100vw - 100px);
+}
