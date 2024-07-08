@@ -1,4 +1,65 @@
+main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .dashboard-wrapper {
     background-color: #ebebeb;
-    width: calc(100vw - 100px);
+    width: calc(100vw - 500px);
+    border-radius: 6px;
+    padding: 18px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+
+h3 {
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.card-details {
+    display: flex;
+    gap: 18px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 6px;
+    flex: 1;
+    padding: 18px;
+}
+
+.card-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-content .current-status {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.card-content .increment {
+    color: #75b265;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.card-content small {
+    color: gray;
+    font-weight: 300;
 }
